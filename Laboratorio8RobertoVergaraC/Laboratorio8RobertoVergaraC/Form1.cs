@@ -28,7 +28,7 @@ namespace Laboratorio8RobertoVergaraC
         public Form1()
         {
             InitializeComponent();
-
+            this.WindowState = FormWindowState.Maximized;
             panels.Add("NewStorePanel", NewStorePanel);
             panels.Add("CheckStorePanel", CheckStorePanel);
             panels.Add("InicialPanel", InicialPanel);
